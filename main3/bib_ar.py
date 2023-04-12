@@ -8,7 +8,7 @@ from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
 stop_words = stopwords.words('arabic')
 
-# 1 aaaaaaaaaaaaaaaaaaaaaaaaaaa
+# 1 
 def normalize(string):
     regex = re.compile(r'[إأٱآا]')
     string = re.sub(regex, 'ا', string)
